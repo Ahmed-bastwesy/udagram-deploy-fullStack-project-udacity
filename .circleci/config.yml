@@ -4,6 +4,9 @@ orbs:
   node: circleci/node@4.2.0
 
 jobs:
+  build:
+    docker:
+      - image: "cimg/base:stable"
     steps:
       - node/install
       - checkout
