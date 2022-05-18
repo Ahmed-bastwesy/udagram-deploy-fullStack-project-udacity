@@ -1,6 +1,6 @@
 ## Udagram Pipeline
 
-![Circleci](circleci.png)
+![Circleci](circleciImg.png)
 
 ### Continuous Integration
 #### CircleCI
