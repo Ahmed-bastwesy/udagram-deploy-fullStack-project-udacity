@@ -8,11 +8,11 @@ dotenv.config();
 
 export const config = {
   username: process.env.POSTGRES_USERNAME || `postgres`,
-  password: process.env.POSTGRES_PASSWORD  || "123",
-  database: process.env.POSTGRES_DB || "udagram",
+  password: process.env.POSTGRES_PASSWORD  || 'postgres',
+  database: process.env.POSTGRES_DB || "postgres",
   port: Number(process.env.PORT) ,
   dbPort: Number(process.env.DB_PORT) || 5432 ,
-  host: process.env.POSTGRES_HOST || "localhost",
+  host: process.env.POSTGRES_HOST || "database-1.cpwyivf44ots.us-east-1.rds.amazonaws.com",
   dialect: "postgres",
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
