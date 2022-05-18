@@ -1,6 +1,6 @@
 ## Udagram Infrastructure
 
-![InfrastructureImg](InfrastructureImg.png)
+![InfrastructureImg](infrastructureImg.png)
 
 
 #### RDS Postgres
